@@ -1,7 +1,98 @@
 @import "reset";
-#feature{
-  background: #FAFAFA;
-  .feature{
 
+#feature {
+  background: #FAFAFA;
+
+  .feature {
+
+  }
+}
+
+#techno {
+  .techno {
+    &--tittle {
+      color: black;
+      font-size: 36px;
+    }
+
+    &--servers {
+      @include align;
+
+      &__cloud {
+        @include center;
+        h1 {
+          @include number;
+        }
+
+        .icon {
+          @include icon;
+        }
+
+        h2 {
+          @include tittle;
+        }
+
+        h3 {
+          @include h3;
+        }
+      }
+
+      &__secure {
+        @include center;
+        h1 {
+          @include number;
+        }
+
+        .icon {
+          @include icon
+        }
+
+        h2 {
+          @include tittle;
+        }
+
+        h3 {
+          @include h3;
+        }
+      }
+
+      &__pdf {
+        @include center;
+        h1 {
+          @include number;
+        }
+
+        .icon {
+          @include icon
+        }
+
+        h2 {
+          @include tittle;
+        }
+
+        h3 {
+          @include h3;
+        }
+      }
+
+      &__csv {
+        @include center;
+        h1 {
+          @include number;
+        }
+
+        .icon {
+          @include icon
+        }
+
+        h2 {
+          @include tittle;
+        }
+
+        h3 {
+          @include h3;
+        }
+      }
+    }
   }
 }
