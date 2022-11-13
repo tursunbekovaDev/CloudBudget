@@ -2,17 +2,74 @@
 
 #feature {
   background: #FAFAFA;
-
+  padding: 0 0 300px;
   .feature {
-
+    &--center{
+      @include feature;
+    }
+    &--more{
+      @include align;
+      &__support{
+        @include card;
+        img{
+        }
+        &--card1{
+          @include cards;
+          h1{
+            @include all;
+          }
+          p{
+            @include p;
+          }
+          a{
+            @include a;
+          }
+        }
+      }
+      &__manage{
+        @include card;
+        img{
+        }
+        &--card2{
+          @include cards;
+          h1{
+            @include all;
+          }
+          p{
+            @include p;
+            padding: 33px 0;
+          }
+          a{
+            @include a;
+          }
+        }
+      }
+      &__budget{
+        @include card;
+        img{
+        }
+        &--card3{
+          @include cards;
+          h1{
+            @include all;
+          }
+          p{
+            @include p;
+          }
+          a{
+            @include a;
+          }
+        }
+      }
+    }
   }
 }
 
 #techno {
   .techno {
     &--tittle {
-      color: black;
-      font-size: 36px;
+      @include feature;
+      padding: 60px 0 0 0;
     }
 
     &--servers {
