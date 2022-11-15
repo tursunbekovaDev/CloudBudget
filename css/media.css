@@ -88,6 +88,8 @@
   #feature .feature--more__budget--card3 p {
     font-size: 11px;
   }
+    width: 160px;
+    height: 100px;
+    margin-top: 110px;
+  }
 }
-
-/*# sourceMappingURL=media.css.map */
