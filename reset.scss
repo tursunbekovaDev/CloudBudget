@@ -7,16 +7,6 @@
   margin: 0 auto;
   width: 90%;
 }
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  margin: 0 auto;
-  width: 90%;
-}
 @mixin shrift{
   font-family: 'Lato', sans-serif;
 
@@ -55,10 +45,9 @@
   border-radius: 6px;
   font-size: 20px;
 }
-@mixin size{
+@mixin size {
   font-size: 46px;
-=======
-
+}
 @mixin align {
   display: flex;
   justify-content: space-evenly;
@@ -137,5 +126,4 @@
   height: 170px;
   position: absolute;
   margin-top: 170px;
-
 }
