@@ -53,9 +53,9 @@
 }
 @media (max-width: 768px) {
   #feature .feature--more__support--card1 {
-    padding: 10px 20px;
-    width: 160px;
-    height: 140px;
+    padding: 20px 20px;
+    width: 152px;
+    height: 101px;
     margin-top: 110px;
   }
   #feature .feature--more__support--card1 h1 {
@@ -63,11 +63,12 @@
   }
   #feature .feature--more__support--card1 p {
     font-size: 11px;
+    padding: 12px 0;
   }
   #feature .feature--more__manage--card2 {
-    padding: 10px 20px;
-    width: 160px;
-    height: 140px;
+    padding: 20px 20px;
+    width: 152px;
+    height: 101px;
     margin-top: 110px;
   }
   #feature .feature--more__manage--card2 h1 {
@@ -77,19 +78,42 @@
     font-size: 11px;
   }
   #feature .feature--more__budget--card3 {
-    padding: 10px 20px;
-    width: 160px;
-    height: 140px;
+    padding: 20px 20px;
+    width: 152px;
+    height: 101px;
     margin-top: 110px;
   }
   #feature .feature--more__budget--card3 h1 {
-    font-size: 16px;
+    font-size: 15px;
   }
   #feature .feature--more__budget--card3 p {
     font-size: 11px;
+    padding: 12px 0;
   }
-    width: 160px;
-    height: 100px;
-    margin-top: 110px;
+  #techno .techno--servers__cloud .icon {
+    padding: 62px 0 0 0;
+  }
+  #techno .techno--servers__cloud h2 {
+    padding: 10px 0;
+  }
+  #techno .techno--servers__secure .icon {
+    padding: 62px 0 0 0;
+  }
+  #techno .techno--servers__secure h2 {
+    padding: 10px 0;
+  }
+  #techno .techno--servers__pdf .icon {
+    padding: 62px 0 0 0;
+  }
+  #techno .techno--servers__pdf h2 {
+    padding: 10px 0;
+  }
+  #techno .techno--servers__csv .icon {
+    padding: 62px 0 0 0;
+  }
+  #techno .techno--servers__csv h2 {
+    padding: 10px 0;
   }
 }
+
+/*# sourceMappingURL=media.css.map */
