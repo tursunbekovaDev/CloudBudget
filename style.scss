@@ -1,5 +1,51 @@
 @import "reset";
 
+#stay {
+  background: #ED4C5C;
+  height: 550px;
+
+  .stay {
+    display: flex;
+
+    &--focused {
+      @include shrift;
+      color: white;
+      margin: 40px 127px;
+
+      &__saving {
+        @include size;
+        width: 70%;
+      }
+
+      &__cite {
+        width: 75%;
+        font-size: 18px;
+        margin: 70px 0 70px 0;
+        font-weight: 400;
+        line-height: 140%;
+      }
+
+      &__img {
+        @include evenly;
+        width: 25%;
+      }
+    }
+
+    &--imag {
+      @include center;
+      margin: 0 180px 0 0;
+
+
+      &__photo {
+        margin: 0 -150px 0 0;
+      }
+
+      &__photos {
+        position: absolute;
+      }
+
+
+
 #feature {
   background: #FAFAFA;
   padding: 0 0 300px;
@@ -61,9 +107,132 @@
           }
         }
       }
+
     }
   }
 }
+
+
+#contact {
+  height: 600px;
+
+  .contact {
+    @include shrift;
+    @include alin;
+    padding: 105px 0 0 0;
+
+    &--money {
+      &__below {
+        @include size;
+        color: black;
+      }
+
+      &__belows {
+        width: 67%;
+        margin: 40px 0 0 0;
+      }
+    }
+
+    &--help {
+
+      &__request {
+        @include column;
+
+        &--own {
+          @include between;
+          margin: 20px 0 0 0;
+
+          &__input {
+            width: 255px;
+            height: 60px;
+            border: 1px solid rgba(34, 34, 34, 0.66);
+         @include border;
+            margin: 0 0 20px 0;
+            font-size: 20px;
+          }
+        }
+
+        &--inputs {
+          width: 540px;
+          height: 60px;
+          border: 1px solid #333333;
+          @include border;
+          @include margin;
+        }
+
+        &--btn {
+          width: 160px;
+          height: 50px;
+          color: white;
+          background: #ED4C5C;
+          border: 1.5px solid #ED4C5C;
+          border-radius: 6px;
+
+          @include margin;
+        }
+
+        &--btn:hover {
+          width: 200px;
+          height: 85px;
+          background: #da7474;
+          color: black;
+        }
+      }
+    }
+  }
+}
+
+#software {
+  background: #FAFAFA;
+  height: 500px;
+
+  .software {
+    @include shrift;
+
+    &--visa {
+      @include around;
+      padding: 200px 0 0 0;
+
+      &__address {
+        img {
+          margin: 20px 0 0 0;
+        }
+
+        &--features {
+          font-size: 25px;
+          line-height: 29px;
+        }
+
+        &--pipang {
+          font-size: 15px;
+          margin: 50px 0 0 0;
+        }
+
+      }
+
+      &__overview {
+        a {
+          text-decoration: none;
+          color: black;
+          @include column;
+          margin: 20px 0 10px 0;
+        }
+
+        &--sylka {
+          @include evenly;
+
+          img {
+            margin: 15px 0 0 0;
+            width: 18px;
+            height: 18px;
+          }
+        }
+      }
+    }
+
+    &--cloub {
+      font-size: 15px;
+      margin: 50px 0 0 120px;
 
 #techno {
   .techno {
@@ -150,6 +319,7 @@
           @include h3;
         }
       }
+
     }
   }
 }
