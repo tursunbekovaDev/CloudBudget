@@ -1,66 +1,21 @@
 @media (max-width: 1200px) {
-  #feature .feature--more__support--card1 {
-    height: 125px;
+  #techno .techno--servers__cloud h3 {
+    font-size: 10px;
+    width: 60%;
   }
-  #feature .feature--more__manage--card2 {
-    height: 125px;
+  #techno .techno--servers__secure h3 {
+    font-size: 10px;
+    width: 60%;
   }
-  #feature .feature--more__budget--card3 {
-    height: 125px;
+  #techno .techno--servers__pdf h3 {
+    font-size: 10px;
+    width: 60%;
   }
-  #techno .techno--servers__cloud {
-    .icon{
-      padding: 55px 0 0 0;
-    }
-    h3 {
-      font-size: 10px;
-      width: 60%;
-    }
-    h2{
-      padding: 10px 0;
-    }
-  }
-  #techno .techno--servers__secure {
-    .icon{
-      padding: 55px 0 0 0;
-    }
-    h3 {
-      font-size: 10px;
-      width: 60%;
-    }
-    h2{
-      padding: 10px 0;
-    }
-  }
-  #techno .techno--servers__pdf {
-    .icon{
-      padding: 55px 0 0 0;
-    }
-    h3 {
-      font-size: 10px;
-      width: 60%;
-    }
-    h2{
-      padding: 10px 0;
-    }
-  }
-  #techno .techno--servers__csv {
-    .icon{
-      padding: 55px 0 0 0;
-    }
-    h3 {
-      font-size: 10px;
-      width: 60%;
-    }
-    h2{
-      padding: 10px 0;
-    }
-  }
-  #techno{
-    padding: 0 0 100px 0;
+  #techno .techno--servers__csv h3 {
+    font-size: 10px;
+    width: 60%;
   }
 }
-
 @media (max-width: 1024px) {
   #feature {
     .feature {
@@ -115,573 +70,169 @@
       }
     }
   }
-}
 
+
+  #budget {
+    .budget {
+      &--water {
+        img {
+          width: 402px;
+          height: 273px;
+          border-radius: 6px;
+        }
+      }
+
+      &--use {
+        &__dox {
+          font-size: 12px;
+          width: 85%;
+
+        }
+
+        &__work {
+          padding: 23px 0;
+          font-size: 30px;
+          line-height: 33px;
+        }
+      }
+    }
+  }
+}
 @media (max-width: 992px) {
+  #hero {
+    .hero {
+      &--menu {
+        width: 60%;
 
+      }
+    }
+  }
+  #project {
+    .project {
+      &--budget {
+        &__btns:hover {
+          width: 155px;
+          height: 54px;
+        }
+
+        &__btns {
+          width: 139px;
+          height: 45px
+        }
+      }
+
+      &__circle {
+        font-size: 70px;
+      }
+    }
+  }
 }
-
 @media (max-width: 768px) {
   #feature .feature--more__support--card1 {
-    padding: 20px 20px;
-    width: 152px;
-    height: 101px;
+    width: 160px;
+    height: 100px;
     margin-top: 110px;
+  }
+  #hero{
+    .hero{
+      &--general{
+        &__btn{
+          width: 75px;
+          height: 31px;
+          margin: 0 -4px;
+        }
 
-    h1 {
-      font-size: 16px;
-    }
+      }
+      &--menu{
+        width: 60%;
+        font-size: 12px;
 
-    p {
-      font-size: 11px;
-      padding: 12px 0;
+      }
+      &--cloud{
+        width: 25%;
+        font-size: 15px;
+
+      }
+      padding: 68px 0 0 0;
+
     }
   }
-  #feature .feature--more__manage--card2 {
-    padding: 20px 20px;
-    width: 152px;
-    height: 101px;
-    margin-top: 110px;
 
-    h1 {
-      font-size: 16px;
-    }
 
-    p {
-      font-size: 11px;
-    }
-  }
-  #feature .feature--more__budget--card3 {
-    padding: 20px 20px;
-    width: 152px;
-    height: 101px;
-    margin-top: 110px;
+  #project {
+    height: 465px;
+    .project{
+      &--budget{
+        &__circle {
+          font-size: 60px;
 
-    h1 {
-      font-size: 15px;
-    }
-
-    p {
-      font-size: 11px;
-      padding: 12px 0;
-    }
-  }
-  #techno {
-    .techno {
-      &--servers {
-        &__cloud {
-          .icon {
-            padding: 62px 0 0 0;
-          }
-
-          h2 {
-            padding: 10px 0;
-          }
         }
-
-        &__secure {
-          .icon {
-            padding: 62px 0 0 0;
-          }
-
-          h2 {
-            padding: 10px 0;
-          }
-        }
-
-        &__pdf {
-          .icon {
-            padding: 62px 0 0 0;
-          }
-
-          h2 {
-            padding: 10px 0;
-          }
-        }
-
-        &__csv {
-          .icon {
-            padding: 62px 0 0 0;
-          }
-
-          h2 {
-            padding: 10px 0;
-          }
-        }
-      }
-
-      padding: 10px 20px;
-      width: 160px;
-      height: 140px;
-      margin-top: 110px;
-
-      h1 {
-        font-size: 16px;
-      }
-
-      p {
-        font-size: 11px;
-      }
-    }
-
-    #feature .feature--more__manage--card2 {
-      padding: 10px 20px;
-      width: 160px;
-      height: 140px;
-      margin-top: 110px;
-
-      h1 {
-        font-size: 16px;
-      }
-
-      h1 {
-        font-size: 16px;
-      }
-
-      p {
-        font-size: 11px;
-      }
-    }
-
-    #feature .feature--more__budget--card3 {
-      padding: 10px 20px;
-      width: 160px;
-      height: 140px;
-      margin-top: 110px;
-
-      h1 {
-        font-size: 16px;
-      }
-
-      p {
-        font-size: 11px;
       }
     }
   }
+  #budget{
+    .budget{
+      &--use{
+        &__fox{
+          font-size: 13px;
+        }
+        &__dox{
+          font-size: 10px;
+          width: 95%;
+        }
+        &__work{
+          padding: 34px 0;
+          font-size: 25px;
+        }
+      }
+      &--water{
+        ion-icon{
+          width: 47px;
+          height: 88px;
+          margin: 0 0 0 -26px
+        }
+        img {
+          width: 277px;
+          height: 230px;
+        }
+      }
+    }
+  }
+
 }
-
 @media (max-width: 576px) {
-  #feature {
-    padding: 0 0 160px;
-  }
-  #feature .feature--more__support--card1 {
-    width: 95px;
-    height: 95px;
-    margin-top: 80px;
+  #hero{
+    .hero{
+      padding: 25px 0 0 0;
 
-    h1 {
-      font-size: 11px;
-    }
-
-    p {
-      font-size: 10px;
-      padding: 5px 0;
-    }
-  }
-  #feature .feature--more__manage--card2 {
-    width: 95px;
-    height: 95px;
-    margin-top: 80px;
-
-    h1 {
-      font-size: 12px;
-    }
-
-    p {
-      font-size: 10px;
-      padding: 5px 0;
-    }
-  }
-  #feature .feature--more__budget--card3 {
-    width: 95px;
-    height: 95px;
-    margin-top: 80px;
-
-    h1 {
-      font-size: 11px;
-    }
-
-    p {
-      font-size: 10px;
-      padding: 5px 0;
-    }
-  }
-  #techno {
-    .techno {
-      &--servers {
-        align-items: start;
-
-        &__cloud {
-          .icon {
-            font-size: 35px;
-            padding: 63px 0 0 0;
-          }
-
-          h2 {
-            font-size: 15px;
-          }
-
-          h3 {
-            padding: 10px 0 0 0;
-          }
+      &--general{
+        img{
+          width: 20px;
         }
-
-        &__secure {
-          .icon {
-            font-size: 35px;
-            padding: 63px 0 0 0;
-          }
-
-          h2 {
-            font-size: 15px;
-          }
-
-          h3 {
-            padding: 10px 0 0 0;
-          }
+        &__btn{
+          width: 56px;
+          height: 26px;
+          margin: 0 -5px;
         }
-
-        &__pdf {
-          .icon {
-            font-size: 35px;
-            padding: 63px 0 0 0;
-          }
-
-          h2 {
-            font-size: 15px;
-          }
-
-          p {
-            font-size: 10px;
-            padding: 5px 0;
-          }
+      }
+      &--menu{
+        width: 70%;
+        font-size: 9px;
+      }
+      &--cloud{
+        width: 25%;
+        font-size: 11px;
+      }
+    }
+  }
+  #budget{
+    .budget{
+      &--water{
+        img {
+          width: 227px;
+          height: 192px;
         }
       }
     }
   }
-  #feature .feature--more__manage--card2 {
-    width: 95px;
-    height: 95px;
-    margin-top: 80px;
-
-    h1 {
-      font-size: 12px;
-    }
-
-    p {
-      font-size: 10px;
-      padding: 5px 0;
-    }
-  }
-  #feature .feature--more__budget--card3 {
-    width: 95px;
-    height: 95px;
-    margin-top: 80px;
-
-    h1 {
-      font-size: 11px;
-    }
-
-    p {
-      font-size: 10px;
-      padding: 5px 0;
-    }
-  }
-  #techno {
-    .techno {
-      &--servers {
-        align-items: start;
-
-        &__cloud {
-          .icon {
-            font-size: 35px;
-            padding: 63px 0 0 0;
-          }
-
-          h2 {
-            font-size: 15px;
-          }
-
-          h3 {
-            padding: 10px 0 0 0;
-          }
-        }
-
-        &__secure {
-          .icon {
-            font-size: 35px;
-            padding: 63px 0 0 0;
-          }
-
-          h2 {
-            font-size: 15px;
-          }
-
-          h3 {
-            padding: 10px 0 0 0;
-          }
-        }
-
-        &__pdf {
-          .icon {
-            font-size: 35px;
-            padding: 63px 0 0 0;
-          }
-
-          h2 {
-            font-size: 15px;
-          }
-
-          h3 {
-            padding: 10px 0 0 0;
-          }
-        }
-
-        &__csv {
-          .icon {
-            font-size: 35px;
-            padding: 63px 0 0 0;
-          }
-
-          h2 {
-            font-size: 15px;
-          }
-
-          h3 {
-            padding: 10px 0 0 0;
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 450px) {
-  #feature {
-    padding: 20px 0 130px 0;
-
-    .feature {
-      &--center {
-        font-size: 25px;
-      }
-
-      &--more {
-        &__support {
-          &--card1 {
-            padding: 15px 20px;
-            width: 70px;
-            height: 80px;
-            margin-top: 65px;
-
-            h1 {
-              font-size: 8px;
-            }
-
-            p {
-              font-size: 7px;
-              padding: 10px 0;
-            }
-
-            a {
-              font-size: 8px;
-            }
-          }
-        }
-
-        &__manage {
-          &--card2 {
-            padding: 15px 20px;
-            width: 70px;
-            height: 80px;
-            margin-top: 65px;
-
-            h1 {
-              font-size: 8px;
-            }
-
-            p {
-              font-size: 7px;
-              padding: 10px 0;
-            }
-
-            a {
-              font-size: 8px;
-            }
-          }
-        }
-
-        &__budget {
-          &--card3 {
-            padding: 15px 20px;
-            width: 70px;
-            height: 80px;
-            margin-top: 65px;
-
-            h1 {
-              font-size: 8px;
-            }
-
-            p {
-              font-size: 7px;
-              padding: 10px 0;
-            }
-
-            a {
-              font-size: 8px;
-            }
-          }
-        }
-      }
-    }
-  }
-  #techno {
-    .techno {
-      &--tittle {
-        font-size: 25px;
-      }
-
-      &--servers {
-        &__cloud {
-          h1 {
-            font-size: 70px;
-          }
-
-          .icon {
-            font-size: 30px;
-            padding: 42px 0 0 0
-          }
-
-          h2 {
-            font-size: 12px;
-          }
-
-          h3 {
-            font-size: 8px;
-          }
-        }
-
-        &__secure {
-          h1 {
-            font-size: 70px;
-          }
-
-          .icon {
-            font-size: 30px;
-            padding: 42px 0 0 0
-          }
-
-          h2 {
-            font-size: 12px;
-          }
-
-          h3 {
-            font-size: 8px;
-          }
-        }
-
-        &__pdf {
-          h1 {
-            font-size: 70px;
-          }
-
-          .icon {
-            font-size: 30px;
-            padding: 42px 0 0 0
-          }
-
-          h2 {
-            font-size: 12px;
-          }
-
-          h3 {
-            font-size: 9px;
-          }
-        }
-
-        &__csv {
-          h1 {
-            font-size: 70px;
-          }
-
-          .icon {
-            font-size: 30px;
-            padding: 42px 0 0 0
-          }
-
-          h2 {
-            font-size: 12px;
-          }
-
-          h3 {
-            font-size: 8px;
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 414px) {
-  #feature{
-    .feature{
-      &--more{
-        &__support{
-          &--card1{
-            padding: 9px 10px;
-            width: 76px;
-            height: 65px;
-            margin-top: 58px;
-            p{
-              padding: 7px 0;
-            }
-          }
-        }
-        &__manage{
-          &--card2{
-            padding: 9px 10px;
-            width: 76px;
-            height: 65px;
-            margin-top: 58px;
-            p{
-              padding: 7px 0;
-            }
-          }
-        }
-        &__budget{
-          &--card3{
-            padding: 9px 10px;
-            width: 76px;
-            height: 65px;
-            margin-top: 58px;
-            h1{
-              font-size: 7px;
-            }
-            p{
-              padding: 7px 0;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 400px) {
-
-}
-
-@media (max-width: 380px) {
-
-}
-
-@media (max-width: 375px) {
-
-}
-
-@media (max-width: 360px) {
-
-}
-
-@media (max-width: 320px) {
-
 }
