@@ -1,19 +1,63 @@
 @media (max-width: 1200px) {
-  #techno .techno--servers__cloud h3 {
-    font-size: 10px;
-    width: 60%;
+  #feature .feature--more__support--card1 {
+    height: 125px;
   }
-  #techno .techno--servers__secure h3 {
-    font-size: 10px;
-    width: 60%;
+  #feature .feature--more__manage--card2 {
+    height: 125px;
   }
-  #techno .techno--servers__pdf h3 {
-    font-size: 10px;
-    width: 60%;
+  #feature .feature--more__budget--card3 {
+    height: 125px;
   }
-  #techno .techno--servers__csv h3 {
-    font-size: 10px;
-    width: 60%;
+  #techno .techno--servers__cloud {
+    .icon{
+      padding: 55px 0 0 0;
+    }
+    h3 {
+      font-size: 10px;
+      width: 60%;
+    }
+    h2{
+      padding: 10px 0;
+    }
+  }
+  #techno .techno--servers__secure {
+    .icon{
+      padding: 55px 0 0 0;
+    }
+    h3 {
+      font-size: 10px;
+      width: 60%;
+    }
+    h2{
+      padding: 10px 0;
+    }
+  }
+  #techno .techno--servers__pdf {
+    .icon{
+      padding: 55px 0 0 0;
+    }
+    h3 {
+      font-size: 10px;
+      width: 60%;
+    }
+    h2{
+      padding: 10px 0;
+    }
+  }
+  #techno .techno--servers__csv {
+    .icon{
+      padding: 55px 0 0 0;
+    }
+    h3 {
+      font-size: 10px;
+      width: 60%;
+    }
+    h2{
+      padding: 10px 0;
+    }
+  }
+  #techno{
+    padding: 0 0 100px 0;
   }
 }
 
@@ -165,49 +209,59 @@
           }
         }
       }
-    padding: 10px 20px;
-    width: 160px;
-    height: 140px;
-    margin-top: 110px;
-    h1{
-      font-size: 16px;
-    }
-    p{
-      font-size: 11px;
-    }
-  }
-  #feature .feature--more__manage--card2 {
-    padding: 10px 20px;
-    width: 160px;
-    height: 140px;
-    margin-top: 110px;
 
-    h1 {
-      font-size: 16px;
+      padding: 10px 20px;
+      width: 160px;
+      height: 140px;
+      margin-top: 110px;
+
+      h1 {
+        font-size: 16px;
+      }
+
+      p {
+        font-size: 11px;
+      }
     }
-    h1{
-      font-size: 16px;
+
+    #feature .feature--more__manage--card2 {
+      padding: 10px 20px;
+      width: 160px;
+      height: 140px;
+      margin-top: 110px;
+
+      h1 {
+        font-size: 16px;
+      }
+
+      h1 {
+        font-size: 16px;
+      }
+
+      p {
+        font-size: 11px;
+      }
     }
-    p{
-      font-size: 11px;
-    }
-  }
-  #feature .feature--more__budget--card3 {
-    padding: 10px 20px;
-    width: 160px;
-    height: 140px;
-    margin-top: 110px;
-    h1{
-      font-size: 16px;
-    }
-    p{
-      font-size: 11px;
+
+    #feature .feature--more__budget--card3 {
+      padding: 10px 20px;
+      width: 160px;
+      height: 140px;
+      margin-top: 110px;
+
+      h1 {
+        font-size: 16px;
+      }
+
+      p {
+        font-size: 11px;
+      }
     }
   }
 }
 
 @media (max-width: 576px) {
-  #feature{
+  #feature {
     padding: 0 0 160px;
   }
   #feature .feature--more__support--card1 {
@@ -218,6 +272,7 @@
     h1 {
       font-size: 11px;
     }
+
     p {
       font-size: 10px;
       padding: 5px 0;
@@ -295,9 +350,13 @@
           h2 {
             font-size: 15px;
           }
-    p {
-      font-size: 10px;
-      padding: 5px 0;
+
+          p {
+            font-size: 10px;
+            padding: 5px 0;
+          }
+        }
+      }
     }
   }
   #feature .feature--more__manage--card2 {
@@ -372,6 +431,7 @@
           h2 {
             font-size: 15px;
           }
+
           h3 {
             padding: 10px 0 0 0;
           }
@@ -399,10 +459,12 @@
 @media (max-width: 450px) {
   #feature {
     padding: 20px 0 130px 0;
+
     .feature {
-      &--center{
+      &--center {
         font-size: 25px;
       }
+
       &--more {
         &__support {
           &--card1 {
@@ -410,14 +472,17 @@
             width: 70px;
             height: 80px;
             margin-top: 65px;
-            h1{
+
+            h1 {
               font-size: 8px;
             }
-            p{
+
+            p {
               font-size: 7px;
               padding: 10px 0;
             }
-            a{
+
+            a {
               font-size: 8px;
             }
           }
@@ -429,14 +494,17 @@
             width: 70px;
             height: 80px;
             margin-top: 65px;
-            h1{
+
+            h1 {
               font-size: 8px;
             }
-            p{
+
+            p {
               font-size: 7px;
               padding: 10px 0;
             }
-            a{
+
+            a {
               font-size: 8px;
             }
           }
@@ -448,14 +516,17 @@
             width: 70px;
             height: 80px;
             margin-top: 65px;
-            h1{
+
+            h1 {
               font-size: 8px;
             }
-            p{
+
+            p {
               font-size: 7px;
               padding: 10px 0;
             }
-            a{
+
+            a {
               font-size: 8px;
             }
           }
@@ -463,69 +534,85 @@
       }
     }
   }
-  #techno{
-    .techno{
-      &--tittle{
+  #techno {
+    .techno {
+      &--tittle {
         font-size: 25px;
       }
-      &--servers{
-        &__cloud{
-          h1{
+
+      &--servers {
+        &__cloud {
+          h1 {
             font-size: 70px;
           }
-          .icon{
+
+          .icon {
             font-size: 30px;
             padding: 42px 0 0 0
           }
-          h2{
+
+          h2 {
             font-size: 12px;
           }
-          h3{
+
+          h3 {
             font-size: 8px;
           }
         }
-        &__secure{
-          h1{
+
+        &__secure {
+          h1 {
             font-size: 70px;
           }
-          .icon{
+
+          .icon {
             font-size: 30px;
             padding: 42px 0 0 0
           }
-          h2{
+
+          h2 {
             font-size: 12px;
           }
-          h3{
+
+          h3 {
             font-size: 8px;
           }
         }
-        &__pdf{
-          h1{
+
+        &__pdf {
+          h1 {
             font-size: 70px;
           }
-          .icon{
+
+          .icon {
             font-size: 30px;
             padding: 42px 0 0 0
           }
-          h2{
+
+          h2 {
             font-size: 12px;
           }
-          h3{
+
+          h3 {
             font-size: 9px;
           }
         }
-        &__csv{
-          h1{
+
+        &__csv {
+          h1 {
             font-size: 70px;
           }
-          .icon{
+
+          .icon {
             font-size: 30px;
             padding: 42px 0 0 0
           }
-          h2{
+
+          h2 {
             font-size: 12px;
           }
-          h3{
+
+          h3 {
             font-size: 8px;
           }
         }
@@ -535,7 +622,48 @@
 }
 
 @media (max-width: 414px) {
-
+  #feature{
+    .feature{
+      &--more{
+        &__support{
+          &--card1{
+            padding: 9px 10px;
+            width: 76px;
+            height: 65px;
+            margin-top: 58px;
+            p{
+              padding: 7px 0;
+            }
+          }
+        }
+        &__manage{
+          &--card2{
+            padding: 9px 10px;
+            width: 76px;
+            height: 65px;
+            margin-top: 58px;
+            p{
+              padding: 7px 0;
+            }
+          }
+        }
+        &__budget{
+          &--card3{
+            padding: 9px 10px;
+            width: 76px;
+            height: 65px;
+            margin-top: 58px;
+            h1{
+              font-size: 7px;
+            }
+            p{
+              padding: 7px 0;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 400px) {
