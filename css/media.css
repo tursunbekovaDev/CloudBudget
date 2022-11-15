@@ -53,9 +53,40 @@
 }
 @media (max-width: 768px) {
   #feature .feature--more__support--card1 {
+    padding: 10px 20px;
     width: 160px;
-    height: 100px;
+    height: 140px;
     margin-top: 110px;
+  }
+  #feature .feature--more__support--card1 h1 {
+    font-size: 16px;
+  }
+  #feature .feature--more__support--card1 p {
+    font-size: 11px;
+  }
+  #feature .feature--more__manage--card2 {
+    padding: 10px 20px;
+    width: 160px;
+    height: 140px;
+    margin-top: 110px;
+  }
+  #feature .feature--more__manage--card2 h1 {
+    font-size: 16px;
+  }
+  #feature .feature--more__manage--card2 p {
+    font-size: 11px;
+  }
+  #feature .feature--more__budget--card3 {
+    padding: 10px 20px;
+    width: 160px;
+    height: 140px;
+    margin-top: 110px;
+  }
+  #feature .feature--more__budget--card3 h1 {
+    font-size: 16px;
+  }
+  #feature .feature--more__budget--card3 p {
+    font-size: 11px;
   }
 }
 
