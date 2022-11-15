@@ -7,8 +7,6 @@
   margin: 0 auto;
   width: 90%;
 }
-
-
 * {
   margin: 0;
   padding: 0;
@@ -162,7 +160,7 @@
 #software .software--cloub {
   font-size: 15px;
   margin: 50px 0 0 120px;
-=======
+  }
 #feature {
   background: #FAFAFA;
   padding: 0 0 300px;
@@ -388,5 +386,3 @@
   color: black;
   text-align: center;
 }
-
-/*# sourceMappingURL=style.css.map */
